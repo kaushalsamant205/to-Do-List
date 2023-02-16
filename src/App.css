@@ -1,31 +1,42 @@
-.App {
-  text-align: center;
+
+.form--top{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top: 20px;
+}
+.form--title{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.form--tag{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.form--status{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.form--description{
+    width: 800px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.form--due{
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.form--button{
+    width: 100px;
+    max-height: 60px;
+    border-radius: 10px;
+    margin-left: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.heart {
-  color: #ff0000;
-}
-
-.small {
-  font-size: 0.75rem;
-}
